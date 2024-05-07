@@ -7,3 +7,11 @@ Resolving hostnames refers to the process of converting human-readable domain na
 
 ### <ins>Hostname Resolution</ins>
 every cluster member must be able to resolve hostnames of every other cluster member, its own hostname, as well as machines on which command line tools such as **rabbitmqctl** might be used.Nodes will perform hostname resolution early on node boot. In container-based environments it is important that hostname resolution is ready before the container is started.
+
+### <ins>Port Access</ins>
+RabbitMQ nodes [bind to ports](https://www.rabbitmq.com/docs/networking#ports) (open server TCP sockets) in order to accept client and CLI tool connections.
+
+### <ins>Erlang Cookie</ins>
+RabbitMQ nodes and CLI tools (e.g. **rabbitmqctl**) use a cookie to determine whether they are allowed to communicate with each other. For two nodes to be able to communicate they must have the same shared secret called the Erlang cookie. The cookie is just a string of alphanumeric characters up to 255 characters in size
+
+### <ins></ins>
