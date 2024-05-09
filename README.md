@@ -14,4 +14,7 @@ RabbitMQ nodes [bind to ports](https://www.rabbitmq.com/docs/networking#ports) (
 ### <ins>Erlang Cookie</ins>
 RabbitMQ nodes and CLI tools (e.g. **rabbitmqctl**) use a cookie to determine whether they are allowed to communicate with each other. For two nodes to be able to communicate they must have the same shared secret called the Erlang cookie. The cookie is just a string of alphanumeric characters up to 255 characters in size
 
-### <ins></ins>
+### <ins>volumes</ins>
+This section specifies the volumes to mount into the container. Volumes are used for persisting data or configuration outside of the container<br>
+- **`./rabbitmq.config`** into **`/etc/rabbitmq/rabbitmq.config`**: This is likely a custom RabbitMQ configuration file that overrides default settings.
+- **`./definitions.json`** into **`/etc/rabbitmq/definitions.json`** : This is likely a JSON file containing RabbitMQ definitions, such as queues, exchanges, and bindings.
