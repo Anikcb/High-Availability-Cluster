@@ -22,3 +22,22 @@ RabbitMQ nodes and CLI tools (e.g. **rabbitmqctl**) use a cookie to determine wh
 This section specifies the volumes to mount into the container. Volumes are used for persisting data or configuration outside of the container<br>
 - **`./rabbitmq.config`** into **`/etc/rabbitmq/rabbitmq.config`**: This is likely a custom RabbitMQ configuration file that overrides default settings.
 - **`./definitions.json`** into **`/etc/rabbitmq/definitions.json`** : This is likely a JSON file containing RabbitMQ definitions, such as queues, exchanges, and bindings.
+
+# Setup Highly Available Cluster
+Go to the Folder **RabbitMq**, open command Shell and run the commands
+```bash
+docker network create rabbitmq-HAC
+```
+```bash
+docker-compose up -d
+```
+
+# Run Producer & Consumer
+From **Consumer** folder open cmd and run the command
+```bash
+dotnet run
+```
+same for the **Consumer**
+```bash
+dotnet run
+```
