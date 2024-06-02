@@ -9,9 +9,10 @@ F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.GeneratedMSBuild
 F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.AssemblyInfoInputs.cache
 F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.AssemblyInfo.cs
 F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.csproj.CoreCompileInputs.cache
-F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.csproj.CopyComplete
 F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.dll
 F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\refint\Consumer.dll
 F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.pdb
 F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.genruntimeconfig.cache
 F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\ref\Consumer.dll
+F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.sourcelink.json
+F:\High-Availability-Cluster\Consumer\obj\Debug\net7.0\Consumer.csproj.Up2Date

@@ -10,12 +10,8 @@ services:
       - "./rabbitmq.config:/etc/rabbitmq/rabbitmq.config"
       - "./definitions.json:/etc/rabbitmq/definitions.json"
     ports:
-      - "4369:4369"
-      - "5671:5671"
-      - "5672:5672"
-      - "15671:15671"
-      - "15672:15672"
-      - "25672:25672"
+      - "5673:5672" 
+      - "15673:15672"
 
   rabbit2:
     image: rabbitmq:3-management
@@ -28,6 +24,9 @@ services:
     volumes:
       - "./rabbitmq.config:/etc/rabbitmq/rabbitmq.config"
       - "./definitions.json:/etc/rabbitmq/definitions.json"
+    ports:
+      - "5674:5672"
+      - "15674:15672"
     
   rabbit3:
     image: rabbitmq:3-management
@@ -40,8 +39,11 @@ services:
     volumes:
       - "./rabbitmq.config:/etc/rabbitmq/rabbitmq.config"
       - "./definitions.json:/etc/rabbitmq/definitions.json"
+    ports:
+      - "5675:5672"
+      - "15675:15672"
 
 networks:
   default:
     external:
-      name: rabbitmq-cluster
+      name: rabbitmq-HAC

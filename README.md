@@ -23,12 +23,6 @@ This section specifies the volumes to mount into the container. Volumes are used
 - **`./rabbitmq.config`** into **`/etc/rabbitmq/rabbitmq.config`**: This is likely a custom RabbitMQ configuration file that overrides default settings.
 - **`./definitions.json`** into **`/etc/rabbitmq/definitions.json`** : This is likely a JSON file containing RabbitMQ definitions, such as queues, exchanges, and bindings.
 
-### <ins>Queue Leader Replica Placement</ins>
-Queue leaders can be distributed between nodes using several strategies. Which strategy is used is controlled in three ways, namely, using the `x-queue-master-locator`. You can read this from [here](https://www.rabbitmq.com/docs/clustering#replica-placement)
-
-### <ins>Publisher Confirms</ins>
-To sent acknowledgment after sync in mirrored queues `ha-sync-mode: manual`
-
 # Setup Highly Available Cluster
 Go to the Folder **RabbitMq**, open command Shell and run the commands
 ```bash

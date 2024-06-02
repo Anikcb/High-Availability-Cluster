@@ -9,9 +9,10 @@ F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.GeneratedMSBuild
 F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.AssemblyInfoInputs.cache
 F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.AssemblyInfo.cs
 F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.csproj.CoreCompileInputs.cache
-F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.csproj.CopyComplete
 F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.dll
 F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\refint\Producer.dll
 F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.pdb
 F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.genruntimeconfig.cache
 F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\ref\Producer.dll
+F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.sourcelink.json
+F:\High-Availability-Cluster\Producer\obj\Debug\net7.0\Producer.csproj.Up2Date

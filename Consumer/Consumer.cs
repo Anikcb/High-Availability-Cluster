@@ -2,13 +2,21 @@
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-var factory = new ConnectionFactory { Uri = new Uri("amqp://guest:guest@localhost:5672/") };
-using var connection = factory.CreateConnection();
+// var factory = new ConnectionFactory { Uri = new Uri("amqp://guest:guest@localhost:5674/") };
+var factory = new ConnectionFactory();
+
+var endpoints = new List<AmqpTcpEndpoint> {
+  new AmqpTcpEndpoint("localhost", 5673),
+  new AmqpTcpEndpoint("localhost",5674),
+  new AmqpTcpEndpoint("localhost",5675)
+};
+
+using var connection = factory.CreateConnection(endpoints);
 using var channel = connection.CreateModel();
 
 // channel.ExchangeDeclare(exchange: "logs", type: ExchangeType.Fanout);
 
-var queueName = channel.QueueDeclare("q.user.created");
+// var queueName = channel.QueueDeclare("q.user.created");
 
 channel.QueueBind(queue: "q.user.created",
                   exchange: "e.user.created",
