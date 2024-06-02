@@ -1,4 +1,4 @@
-# Topics needs to know, to run this project
+# Topic you needs to know, to run this project
 
 ### <ins>Node Names (Identifiers)</ins>
 RabbitMQ nodes are identified by node names. A node name consists of two parts, a prefix (usually rabbit) and hostname. For example, **rabbit@node1.messaging.svc.local** is a node name with the prefix of rabbit and hostname of **node1.messaging.svc.local**
