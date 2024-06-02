@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\High-Availability-Cluster\\Producer\\Producer.csproj": {}
+    "F:\\Highly-Available-Cluster\\Producer\\Producer.csproj": {}
   },
   "projects": {
-    "F:\\High-Availability-Cluster\\Producer\\Producer.csproj": {
+    "F:\\Highly-Available-Cluster\\Producer\\Producer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\High-Availability-Cluster\\Producer\\Producer.csproj",
+        "projectUniqueName": "F:\\Highly-Available-Cluster\\Producer\\Producer.csproj",
         "projectName": "Producer",
-        "projectPath": "F:\\High-Availability-Cluster\\Producer\\Producer.csproj",
+        "projectPath": "F:\\Highly-Available-Cluster\\Producer\\Producer.csproj",
         "packagesPath": "C:\\Users\\anikc\\.nuget\\packages\\",
-        "outputPath": "F:\\High-Availability-Cluster\\Producer\\obj\\",
+        "outputPath": "F:\\Highly-Available-Cluster\\Producer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

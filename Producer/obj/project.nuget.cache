@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6xI0Z5neHUghBiHedKqXGQP1gLgG4giMMRnhqrV4B7D4M9zraaCES4jAsyI6MC41qhB3Yr1UYEIBqdkxH6jYRA==",
+  "dgSpecHash": "l3LNRe9uGwDhQUe0d0K9+EFiTlHlQqYLPTCiCpJUvr0wi8SJBf6sGJ3V5ayHfkewLtXTdZOjOAJPof4Fva2lhQ==",
   "success": true,
-  "projectFilePath": "F:\\High-Availability-Cluster\\Producer\\Producer.csproj",
+  "projectFilePath": "F:\\Highly-Available-Cluster\\Producer\\Producer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anikc\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\anikc\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

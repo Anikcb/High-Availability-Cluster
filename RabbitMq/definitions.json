@@ -32,7 +32,7 @@
         "ha-promote-on-failure": "always",
         "ha-promote-on-shutdown": "when-synced",
         "ha-mode": "all",
-        "ha-sync-mode": "automatic",   
+        "ha-sync-mode": "automatic",
         "ha-sync-batch-size": 5
       }
     }

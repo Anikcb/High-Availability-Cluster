@@ -2,7 +2,6 @@
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-// var factory = new ConnectionFactory { Uri = new Uri("amqp://guest:guest@localhost:5674/") };
 var factory = new ConnectionFactory();
 
 var endpoints = new List<AmqpTcpEndpoint> {

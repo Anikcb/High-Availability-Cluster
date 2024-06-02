@@ -7,13 +7,13 @@ factory.Password = "guest";
 
 var endpoints = new List<AmqpTcpEndpoint> {
   new AmqpTcpEndpoint("localhost",5673),
-  new AmqpTcpEndpoint("localhost",5674)
+  new AmqpTcpEndpoint("localhost",5674),
+  new AmqpTcpEndpoint("localhost",5675)
 };
 
 using var connection = factory.CreateConnection(endpoints);
 using var channel = connection.CreateModel();
 
-// channel.ExchangeDeclare(exchange: "e.user.created", type: ExchangeType.Topic);
 
 var routingKey = (args.Length > 0) ? args[0] : "user.created";
 
