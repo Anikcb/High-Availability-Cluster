@@ -46,7 +46,7 @@ From **Consumer** folder open cmd and run the command
 ```bash
 dotnet run
 ```
-same for the **Consumer**
+same for the **Producer**
 ```bash
 dotnet run
 ```
