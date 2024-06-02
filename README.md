@@ -29,6 +29,9 @@ Queue leaders can be distributed between nodes using several strategies. Which s
 ### <ins>Publisher Confirms</ins>
 To sent acknowledgment after sync in mirrored queues `ha-sync-mode: manual`
 
+### <ins>Restart Node</ins>
+`restart: unless-stopped`: Restart the container unless it is explicitly stopped by the user (e.g., using `docker stop`). The container will be restarted on Docker daemon restarts, system reboots, or if the container exits unexpectedly, but not if the user stopped it.
+
 # Setup Highly Available Cluster
 Go to the Folder **RabbitMq**, open command Shell and run the commands
 ```bash
